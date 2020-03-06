@@ -1,4 +1,4 @@
-# workflow-bitly
+# alfred-workflow-bitly
 Alfred 4.0 workflow which shorten the url via bitly.   
 ![Demo](https://github.com/GimmyHchs/workflow-bitly/blob/master/screenshots/demo.gif)
 
