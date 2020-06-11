@@ -16,7 +16,10 @@ Alfred 4.0 workflow which shorten the url via bitly.
 You can get the JQPATH via `which` command. 
 ```sh
 $ which jq
+/usr/local/bin/jq
 ```
+:fire: Note that `/usr/local/bin` is your JQPATH instead of `/usr/local/bin/jq`
+
 
 You have to generate a personal access token from bitly.  
 [How-do-I-find-my-OAuth-access-token ?](https://support.bitly.com/hc/en-us/articles/230647907-How-do-I-find-my-OAuth-access-token-)
