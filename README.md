@@ -16,7 +16,7 @@ Alfred 4.0 workflow which shorten the url via bitly.
 
 You can get the JQPATH via `which` command.
 ```sh
-$ which jq                                                                                                                                                                                             [41f8f2391]
+$ which jq
 /usr/local/bin/jq
 ```
 :fire: Note that `/usr/local/bin` is your JQPATH instead of `/usr/local/bin/jq`
