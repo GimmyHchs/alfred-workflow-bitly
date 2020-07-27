@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo `pwd`
-echo $HOME
-
 access_token=$BITLY_ACCESS_TOKEN
 
 if [ -f "/usr/local/bin/jq" ]; then
@@ -14,11 +11,11 @@ elif [ -f "$HOME/bin/jq" ]; then
 fi
 
 if [ -z "$JQ_COMMAND" ]; then
-    echo "Couldn't find jq, adding $JQPATH to PATH."
+    # echo "Couldn't find jq, adding $JQPATH to PATH."
     export PATH=$JQPATH:$PATH
     JQ_COMMAND="jq"
 else
-	echo "Found jq at $JQ_COMMAND"
+	# echo "Found jq at $JQ_COMMAND"
 fi
 
 curl --location --request POST "https://api-ssl.bitly.com/v4/shorten" \
