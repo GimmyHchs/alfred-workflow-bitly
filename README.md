@@ -12,14 +12,14 @@ Alfred 4.0 workflow which shorten the url via bitly.
 1. [Install jq](https://stedolan.github.io/jq/download/)
 2. Download and import the `shorten.alfredworkflow`.
 3. Set the environment variable `BITLY_ACCESS_TOKEN`.
-4. Optionally, if `jq` is in a non-standard location, set JQPATH. For example: `/usr/lib/bin`. This shouldn't be necessary in 99% of cases.
+4. Optionally, if `jq` is in a non-standard location, set JQPATH. For example: `/usr/lib/bin`.
 
 You can get the JQPATH via `which` command.
 ```sh
 $ which jq
 /usr/local/bin/jq
 ```
-:fire: Note that `/usr/local/bin` is your JQPATH instead of `/usr/local/bin/jq`
+:bulb: Note that `/usr/local/bin` is your JQPATH instead of `/usr/local/bin/jq`
 
 
 You have to generate a personal access token from bitly.
@@ -34,3 +34,16 @@ You have to generate a personal access token from bitly.
 ```
 bitly https://stackoverflow.com/
 ```
+
+
+## Manual Testing Report
+
+| Environment      | Value                                                 |
+| ---------------- | ----------------------------------------------------- |
+| Workflow Version | v0.9.1                                                |
+| Alfred Version   | v4.3.4[1229]                                          |
+| Machine          | MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports) |
+| OS               | macOS 11.5 (20G71)                                    |
+| Result           | :white_check_mark:                                    |
+| Test Date        | 2021/08/06                                            |
+
