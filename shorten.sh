@@ -4,6 +4,8 @@ access_token=$BITLY_ACCESS_TOKEN
 
 if [ -f "/usr/local/bin/jq" ]; then
     JQ_COMMAND="/usr/local/bin/jq"
+elif [ -f "/opt/homebrew/bin/jq" ]; then
+    JQ_COMMAND="/opt/homebrew/bin/jq"
 elif [ -f "/usr/bin/jq" ]; then
     JQ_COMMAND="/usr/bin/jq"
 elif [ -f "$HOME/bin/jq" ]; then
