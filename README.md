@@ -40,10 +40,10 @@ bitly https://stackoverflow.com/
 
 | Environment      | Value                                                 |
 | ---------------- | ----------------------------------------------------- |
-| Workflow Version | v0.9.1                                                |
-| Alfred Version   | v4.3.4[1229]                                          |
+| Workflow Version | v0.9.2                                                |
+| Alfred Version   | v4.6.3[1285]                                          |
 | Machine          | MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports) |
-| OS               | macOS 11.5 (20G71)                                    |
+| OS               | macOS 12.2.1 (21D62)                                  |
 | Result           | :white_check_mark:                                    |
-| Test Date        | 2021/08/06                                            |
+| Test Date        | 2022/03/16                                            |
 
